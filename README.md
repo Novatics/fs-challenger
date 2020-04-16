@@ -18,7 +18,7 @@ Your challenge is create a virtual kudo board where the Big Brothers could inter
 
 The following layout should be developed
 
-[image]
+![layout](layout.png)
 
 - You can use the libs and frameworks that make you more comfortable;
 - All fields are required in the form;
