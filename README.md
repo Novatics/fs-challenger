@@ -10,9 +10,9 @@ The objective of this challenge is to evaluate your domain in fullstack developm
 
 ## The Problem
 
-The Big Brother's are looking for a way to keep registered all the nice things that happen inside the house. They want to be more grateful for each other's acts. We discover 3 kinds of acts that worth to be registered: I learn, Was awesome, I'm grateful. Each participant will receive 6 kudo brooches, 2 for each act, and they could give these brooches for the friend that deserves.
+The Big Brother's are looking for a way to keep registered all the nice things that happen inside the house. They want to be more grateful for each other's acts. We discover 3 kinds of acts that worth to be registered: I learned, Was awesome, I'm grateful. Each participant will receive 6 kudo brooches, 2 for each act, and they could give these brooches for the friend that deserves.
 
-Your challenge is create a virtual kudo board where the Big Brothers could interact and give your brooches.
+Your challenge is to create a virtual kudo board where the Big Brothers could interact and give your brooches.
 
 ### Front-end
 
@@ -21,7 +21,7 @@ The following layout should be developed
 ![layout](layout.png)
 
 - You can use the libs and frameworks that make you more comfortable;
-- All fields are required in the form;
+- Would be great to see some responsive behavior implemented;
 - We'll be happy if you develop tests for it;
 
 ### Back-end
@@ -34,7 +34,7 @@ The layout has a form, a table with percentage information of participation and 
 
 #### Plus
 
-Feel free to make improviments like new funcionalities, visual optimizations, API security, etc. 😉
+Feel free to make improvements like new funcionalities, visual optimizations, API security, etc. 😉
 
 ## Questions?
 
