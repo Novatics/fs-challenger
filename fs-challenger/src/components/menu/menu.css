@@ -1,0 +1,117 @@
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+    font-weight: 600;
+    height: 50px;
+    width: 100%;
+}
+
+nav .content {
+    width: 100%;
+    padding: 0 11rem;
+    display: flex;
+    align-items: center;
+}
+
+nav .content .logo {
+    margin-right: 1px solid #aaa;
+}
+
+
+nav .content .menu {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .content .menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav .content .menu ul li {
+    margin: 0 1rem;
+}
+
+nav .content ul li a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+nav .content .hamburguer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+nav .content .hamburguer span {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: black;
+}
+
+nav .hamburguer-menu  {
+    display: none;
+}
+
+nav .content .hamburguer-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .content .profile {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8rem;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav .content .profile * {
+    padding: 0 .5rem;
+}
+
+nav .content .profile img {
+    object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 960px) {
+    nav .content .menu {
+        display: none;
+    }
+
+    nav .content .hamburguer {
+        display: flex;
+        justify-self: end;
+    }
+
+    nav .hamburguer-menu  {
+        position: absolute;
+        z-index: 9;
+        top: 50px;
+        background-color: #ecf0f1;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .hamburguer-menu ul li {
+        padding: 1rem;
+    }
+}
+
+.hide {
+    display: none;
+}
